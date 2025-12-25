@@ -1,0 +1,10 @@
+
+        value = msg.value()
+
+      # Convert category to lowercase
+        value['category'] = value['category'].lower()
+
+        # Apply discount for category a
+        if value['category'] == 'category a':
+            value['price'] = round(value['price'] * 0.5, 2)
+      

@@ -1,0 +1,8 @@
+
+# ---------------- Fetch Incremental Data ----------------
+    query = f"""
+        SELECT *
+        FROM products
+        WHERE last_updated > '{last_read_timestamp}'
+    """
+    
