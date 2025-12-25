@@ -14,7 +14,7 @@ o	Published data to a 10-partition Kafka topic using product_id as key
 •	✅ Kafka Consumer Group (5 consumers)
 o	Avro deserialization
 o	Real-time data transformations (business rules, category normalization, discounts)
-o	Appended transformed records into separate JSON files (NDJSON format)
+o	Appended transformed records into separate JSON files
 
 •	✅ Data Engineering Concepts Applied
 o	Consumer groups & partitioning
